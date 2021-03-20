@@ -1,0 +1,132 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#dark-overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.active{
+    border-bottom: #fff 2px solid;
+}
+
+.title{
+    color: tomato;
+}
+
+/* NAVBAR */
+.navbar {
+    font-family: 'Montserrat';
+}
+
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
+
+/* CALL TO ACTION */
+#call-to-action{
+    height: 200px;
+    background:url(../images/best_website_design_sydney01.jpg);
+    background-position: 0 -360px;
+    background-attachment: fixed;
+}
+
+/* WEB DEV */
+#web-dev{
+    min-height: 600px;
+}
+
+/* SEO */
+#seo{
+    min-height: 600px;
+}
+
+/* HOME */
+#home-about{
+    height: 200px;
+    background:url(../images/best_website_design_sydney01.jpg);
+    background-position: 0 -360px;
+    background-attachment: fixed;
+}
+
+/* ABOUT */
+.about-section{
+    background: #fff;
+    position: relative;
+}
+
+#vision{
+    min-height: 600px;
+}
+
+/* VALUES ACCORDION */
+#values-accordion h1,
+#values-accordion a{
+    color:#007b5e;
+}
+#values-accordion .btn-link {
+    font-weight: 400;
+    color: black;
+    background-color: transparent;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold;
+	padding-left: 25px;
+}
+
+#values-accordion .card-body {
+    border-top: 2px solid black;
+}
+
+#values-accordion .card-header .btn.collapsed .fa.main{
+	display:none;
+}
+
+#values-accordion .card-header .btn .fa.main{
+	background: black;
+    padding: 13px 11px;
+    color: #ffffff;
+    width: 35px;
+    height: 41px;
+    position: absolute;
+    left: -1px;
+    top: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+	display:block;
+}
+
+/* WEB DEV */
+#web-dev{
+    background: #fff;
+    position: relative;
+}
+
+/* Services Section */
+#services {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/* MESSAGE SECTION */
+.message-text {
+    text-align: left;
+}
+
+/* PRICING */
+.pricing-header{
+    background: #fff;
+    position: relative;
+}
+
+/* CONTACT */
+.contact-section{
+    background: #fff;
+    position: relative;
+}
